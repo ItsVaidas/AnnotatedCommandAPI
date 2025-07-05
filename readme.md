@@ -17,6 +17,21 @@ AnnotatedCommandAPI is a powerful, easy-to-use command framework designed to sim
 
 ## Getting Started
 
+### Integrating into your Plugin
+
+To use AnnotatedCommandAPI in your Minecraft plugin, add the following dependency to your `build.gradle` file:
+```groovy
+repositories {
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    implementation 'com.github.ItsVaidas:AnnotatedCommandAPI:TAG'
+}
+```
+
+Replace `TAG` with the latest version tag from the [AnnotatedCommandAPI repository](https://github.com/ItsVaidas/AnnotatedCommandAPI)
+
 ### Basic Command Example
 
 Define a simple command that broadcasts a message to all players:
