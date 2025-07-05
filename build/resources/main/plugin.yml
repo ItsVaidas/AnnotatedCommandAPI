@@ -1,4 +1,0 @@
-name: AnnotationCommandAPI
-version: '1.0'
-main: lt.itsvaidas.annotationCommandAPI.AnnotationCommandAPI
-api-version: '1.21'
